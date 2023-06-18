@@ -16,6 +16,15 @@ persist.camera.eis.enabled=1
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera
 
+# Dexopt
+dalvik.vm.dex2oat64.enabled=true
+
+# Disable MTE Async for system server
+arm64.memtag.process.system_server=off
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # IPO
 sys.ipo.disable=1
 sys.ipo.pwrdncap=2
@@ -24,7 +33,7 @@ sys.ipo.pwrdncap=2
 ro.kernel.zio=38,108,105,16
 
 # Logcat
-persist.log.tag.gralloc4=S
+persist.log.tag.gralloc4=S   
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
