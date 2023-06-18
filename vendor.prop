@@ -24,6 +24,8 @@ bluetooth.profile.vcp.controller.enabled=true
 debug.hwui.skia_atrace_enabled=false
 debug.sf.disable_client_composition_cache=1
 ro.config.avoid_gfx_accel=true
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
