@@ -1012,6 +1012,37 @@ vendor/firmware/soc_fm_v1_patch.bin
 vendor/firmware/tfa98xx.cnt
 vendor/firmware/wifi.cfg
 
+# Graphics
+vendor/bin/vpud
+vendor/etc/init/vpud.rc
+vendor/lib/egl/egl.cfg
+vendor/lib/egl/libGLES_mali.so
+vendor/lib/egl/libGLES_meow.so
+vendor/lib/egl/libMEOW_data.so
+vendor/lib/egl/libMEOW_gift.so
+vendor/lib/egl/libMEOW_qt.so
+vendor/lib/egl/libMEOW_trace.so
+vendor/lib/hw/vulkan.mali.so
+vendor/lib/mt6877/libdpframework.so
+vendor/lib/libged.so
+vendor/lib/libFrameRecord.so
+vendor/lib/libOpenCL.so
+vendor/lib/libNoFpsActor.so
+vendor/lib/libgpud.so
+vendor/lib64/egl/libGLES_mali.so
+vendor/lib64/egl/libGLES_meow.so
+vendor/lib64/egl/libMEOW_data.so
+vendor/lib64/egl/libMEOW_gift.so
+vendor/lib64/egl/libMEOW_qt.so
+vendor/lib64/egl/libMEOW_trace.so
+vendor/lib64/hw/vulkan.mali.so
+vendor/lib64/mt6877/libdpframework.so
+vendor/lib64/libOpenCL.so
+vendor/lib64/libged.so
+vendor/lib64/libFrameRecord.so
+vendor/lib64/libNoFpsActor.so
+vendor/lib64/libgpud.so
+
 # GNSS
 vendor/bin/hw/android.hardware.gnss-service.mediatek
 vendor/etc/gnss/agps_profiles_conf2.xml
