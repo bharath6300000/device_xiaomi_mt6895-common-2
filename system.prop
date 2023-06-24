@@ -16,7 +16,7 @@ ro.mtk_cam_stereo_camera_support=1
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera,Apexture
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera,Apexture
 
-#GPU
+# GPU
 ro.opengles.version=196610
 
 # IPO
@@ -31,6 +31,12 @@ persist.log.tag.gralloc4=S
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true 
+
+# perf
+ro.mtk_perf_simple_start_win=1
+ro.mtk_perf_fast_start_win=1
+ro.mtk_perf_response_time=1
+
 
 # USB
 ro.sys.usb.bicr=no
