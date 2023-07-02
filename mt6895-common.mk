@@ -78,7 +78,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.0 \
     android.hardware.soundtrigger@2.1 \
-    android.hardware.soundtrigger@2.2
+    android.hardware.soundtrigger@2.2 \
     MtkInCallService
 
 PRODUCT_PRODUCT_PROPERTIES += \
