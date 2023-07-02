@@ -87,10 +87,6 @@
 /sys/devices/platform/fingerprint(/.*)? u:object_r:vendor_sysfs_fp:s0
 /data/vendor/fpdump(/.*)?               u:object_r:vendor_fingerprint_data_file_fpdump:s0
 
-# GPU governor
-/vendor/bin/gpu-fas                u:object_r:gpu_governor_exec:s0
-/vendor/bin/gpu-fas.sh             u:object_r:gpu_governor_exec:s0
-
 # Graphics
 /sys/devices/virtual/mi_display/disp_feature/disp-DSI-+[0-1](/.*)?        u:object_r:vendor_sysfs_displayfeature:s0
 

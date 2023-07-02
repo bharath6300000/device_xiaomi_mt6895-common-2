@@ -29,12 +29,6 @@ sh_binary {
     vendor: true
 }
 
-sh_binary {
-    name: "gpu-fas.sh",
-    src: "bin/gpu-fas.sh",
-    vendor: true,
-}
-
 // Init configuration files
 prebuilt_etc {
     name: "init.batterysecret.rc",

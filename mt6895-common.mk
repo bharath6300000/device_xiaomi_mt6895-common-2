@@ -131,13 +131,6 @@ PRODUCT_PACKAGES += \
     libdrm.vendor \
     libvulkan
 
-# GPU governor
-PRODUCT_PACKAGES += \
-    gpu-fas.sh
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilts/gpu-fas:$(TARGET_COPY_OUT_VENDOR)/bin/gpu-fas
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor
