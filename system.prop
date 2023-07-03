@@ -16,6 +16,10 @@ persist.camera.eis.enabled=1
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera
 
+# Fingerprints
+ro.build.fingerprint=Xiaomi/missi_phone_cn/missi:13/TP1A.220624.014/V14.0.5.0.TLOCNXM:user/release-keys
+ro.build.version.sdk=33
+
 # IPO
 sys.ipo.disable=1
 sys.ipo.pwrdncap=2
