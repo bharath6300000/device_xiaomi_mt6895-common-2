@@ -21,6 +21,8 @@ ro.build.fingerprint=Xiaomi/missi_phone_cn/missi:13/TP1A.220624.014/V14.0.5.0.TL
 ro.build.version.sdk=33
 ro.build.version.incremental=V14.0.5.0.TLOCNXM
 ro.build.version.security_patch=2023-06-01
+ro.build.date.utc=1686659662
+
 
 # IPO
 sys.ipo.disable=1
