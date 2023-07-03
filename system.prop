@@ -19,6 +19,7 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.goog
 # Fingerprints
 ro.build.fingerprint=Xiaomi/missi_phone_cn/missi:13/TP1A.220624.014/V14.0.5.0.TLOCNXM:user/release-keys
 ro.build.version.sdk=33
+ro.build.version.incremental=V14.0.5.0.TLOCNXM
 
 # IPO
 sys.ipo.disable=1
