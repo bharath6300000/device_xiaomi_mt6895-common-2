@@ -96,6 +96,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth@1.1.vendor \
     android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.bluetooth.audio@2.1-impl
@@ -116,6 +117,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0.vendor \
+    android.hardware.camera.device@1.0.vendor \
     android.hardware.camera.device@3.2.vendor \
     android.hardware.camera.device@3.3.vendor \
     android.hardware.camera.device@3.4.vendor \
