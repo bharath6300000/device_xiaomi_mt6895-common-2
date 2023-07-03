@@ -17,7 +17,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/compression.mk)
 
 # GApps
-$(call inherit-product-if-exists, vendor/gapps/basic/config.mk)
+$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
 
 PRODUCT_PACKAGES += \
     update_engine \
