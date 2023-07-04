@@ -87,11 +87,6 @@
 /sys/devices/platform/fingerprint(/.*)? u:object_r:vendor_sysfs_fp:s0
 /data/vendor/fpdump(/.*)?               u:object_r:vendor_fingerprint_data_file_fpdump:s0
 
-# GPU governor
-/system/bin/ondemand_mtk                u:object_r:gpu_governor_exec:s0
-/system/bin/ondemand_gpu.sh             u:object_r:gpu_governor_exec:s0
-/data/gpu_freq_table.conf               u:object_r:gpu_governor_data_file:s0
-
 # Graphics
 /sys/devices/virtual/mi_display/disp_feature/disp-DSI-+[0-1](/.*)?        u:object_r:vendor_sysfs_displayfeature:s0
 
