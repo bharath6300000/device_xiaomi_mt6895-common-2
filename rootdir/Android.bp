@@ -29,6 +29,12 @@ sh_binary {
     vendor: true
 }
 
+sh_binary {
+    name: "gpu_fix.sh",
+    src: "bin/gpu_fix.sh",
+    vendor: true,
+}
+
 // Init configuration files
 prebuilt_etc {
     name: "init.batterysecret.rc",
