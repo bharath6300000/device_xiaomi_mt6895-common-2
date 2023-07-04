@@ -1025,10 +1025,11 @@ on property:sys.boot_completed=1
     # stop bootprof
     write /proc/bootprof 0
 
-    # start gpu governor
-    start gpu-freq
+    # start gpu ondemand governor
+    exec /system/bin/ondemand_gpu.sh
+    start ondemand_mtk
 
-service gpu-freq /vendor/bin/gpu_fix.sh
+service ondemand_mtk /system/bin/ondemand_mtk
     class main
     user root
 	seclabel u:r:su:s0

@@ -30,9 +30,8 @@ sh_binary {
 }
 
 sh_binary {
-    name: "gpu_fix.sh",
-    src: "bin/gpu_fix.sh",
-    vendor: true,
+    name: "ondemand_gpu.sh",
+    src: "bin/ondemand_gpu.sh"
 }
 
 // Init configuration files

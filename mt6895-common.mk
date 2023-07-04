@@ -159,12 +159,12 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gatekeeper@1.0.vendor
 
-# GPU governor
+# GPU ondemand governor
 PRODUCT_PACKAGES += \
-    gpu_fix.sh
+    ondemand_gpu.sh
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilts/gpu-freq:$(TARGET_COPY_OUT_VENDOR)/bin/gpu-freq
+    $(LOCAL_PATH)/prebuilts/ondemand_mtk:$(TARGET_COPY_OUT_SYSTEM)/bin/ondemand_mtk
 
 # Gnss
 PRODUCT_PACKAGES += \
@@ -363,6 +363,7 @@ PRODUCT_PACKAGES += \
     meta_init.modem.rc \
     meta_init.project.rc \
     multi_init.rc \
+    set_permissive.rc \
     ueventd.mtk.rc
 
 PRODUCT_COPY_FILES += \
