@@ -159,6 +159,13 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gatekeeper@1.0.vendor
 
+# GPU governor
+PRODUCT_PACKAGES += \
+    gpu_fix.sh
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/gpu-freq:$(TARGET_COPY_OUT_VENDOR)/bin/gpu-freq
+
 # Gnss
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1.vendor \
